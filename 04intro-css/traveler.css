@@ -21,7 +21,7 @@ header p{
     letter-spacing: 5px;
 }
 
-/* nav stuff goes here */
+/* nav stuff foes herer */
 nav {
     background-color: #f2b705;
 }
@@ -43,7 +43,7 @@ nav li.active a {
     background-color: #024873;
     color: #f2b705;
 }
-nav a.hover {
+nav a:hover {
     color: #fff;
     
 }
