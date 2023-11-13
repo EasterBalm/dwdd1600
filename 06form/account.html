@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+     <!-- start of the header -->
+    <head> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="description" content="a print shop titled EasterBalms print store">
+        <meta name="author" content="Esteban Cancino Saenz">
+        <link rel="stylesheet" href="traveler.css">
+
+        <title>EasterBalm Print store </title> 
+    </head>
+    <body>
+        <!-- start of the page header -->
+        <header>
+            <h1>EasterBalms Print Store</h1>
+            <p><i>high quality</i> clothing, accesories and <i>more</i>!</p>
+        </header>
+
+        <!-- start of the navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li ><a href="store.html">Shop</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li class="active"><a href="account.html">account</a></li>
+            </ul>
+        </nav>     
+
+        <!-- start of the page main -->
+      <main> 
+        <form method="get" class="myform" action="thanks.html">
+        
+        
+        <fieldset>
+        <legend>sign up/log in</legend>
+        <label>First Name* <input type="text" name="fname" required></label> 
+        <label>Last Name* <input type="text" name="lname" required></label> 
+        <label>Cell Number* <input type="tel" name="phone" required placeholder="987-555-1234"></label> 
+        </fieldset>
+        <input type="submit" value="Sign in">
+
+        
+        <fieldset>
+        <legend>updates and special deals</legend>
+        <label><input type="radio" name="method" value="phone"> Phone Number</label>
+        <label><input type="radio" name="method" value="email"> Email</label>  
+        </fieldset>
+        <input type="submit" value="send me updates"> 
+
+        <fieldset>
+            <legend>Monthly Subscriptions</legend>
+            <lable><input type="checkbox" name="3months" value="chosen"> 3 months</lable>
+            <lable><input type="checkbox" name="6months" value="chosen"> 6 months</lable>
+            <lable><input type="checkbox" name="9 months" value="chosen"> 9 months</lable>
+            <lable><input type="checkbox" name="1 year" value="chosen"> 1 year</lable>
+            
+            <label>Prefered month break
+            <select name="time">
+            <option value="none">Please Select</option>
+            <option value="1-1"> once a month</option>
+            <option value="1-2"> once every 2 months</option>
+            <option value="1-3"> once every 3 months</option>
+            </select>
+            </label>
+
+        </fieldset>
+        <input type="submit" value="subscribe">
+        <label>Comments
+            <textarea name="Commets"></textarea>
+        </label>
+        
+     </form>
+     </main>
+      <!-- start of the page footer -->
+        <footer>
+            <p>&copy; 2023 &bull; Esteban Cancino Saenz &bull; <a href="mailto:Esteban59601@gmail.com">Email US</a></p>
+        
+        </footer>
+     </body>
+ </html>
