@@ -105,42 +105,41 @@ main ul li {
     font-size: .8rem;
 }
 
-.myForm fieldset {
+.myform fieldset {
     border: 10px solid  rgb(17,224,228);
     border-radius: 10px;
     margin-bottom: 1rem;
 }
-.myForm legend {
+.myform legend {
     color:  rgb(17,224,228);
     font-size: .8rem;
 }
-.myForm label {
+.myform label {
     margin: .5rem;
 
 }
-.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], .myForm textarea {
+.myform label, .myform select, .myForm [type=text], .myform [type=tel], .myform textarea {
     display: block;
 }
 
-.myForm [type=text], .myForm [type=tel], .myForm select, .myForm textarea
+.myform [type=text], .myform [type=tel], .myform select, .myform textarea
  {
-    border: solid 1px  rgb(17 224 228);
-    padding: 10rem;
-    width: 300px;
+    padding: .2rem;
+    width: 400px;
     border-radius: .3rem;
-    font-weight: 200;
+    font-weight: 100px;
 
 }
-.myForm textarea {
-    height: 10rem;
+.myform textarea {
+    height: 5rem;
 }
 
-.myForm :required {
+.myform :required {
     background-color: white;
 }
 
-.myForm [type=submit] {
-    background-color: 43a0b6;
+.myform [type=submit] {
+    background-color: #43a0b6;
     border: none;
     padding: 1rem 2rem;
     border-radius: 10px;
