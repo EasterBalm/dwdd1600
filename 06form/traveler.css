@@ -118,7 +118,7 @@ main ul li {
     margin: .5rem;
 
 }
-.myform label, .myform select, .myForm [type=text], .myform [type=tel], .myform textarea {
+.myform label, .myform select, .myform [type=text], .myform [type=tel], .myform textarea {
     display: block;
 }
 
