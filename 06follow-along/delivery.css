@@ -103,6 +103,7 @@ main a {
     margin: .5rem;
 
 }
+
 .myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], .myForm textarea {
     display: block;
 }
@@ -126,7 +127,7 @@ main a {
 }
 
 .myForm [type=submit] {
-    background-color: 43a0b6;
+    background-color: #43a0b6;
     border: none;
     padding: 1rem 2rem;
     border-radius: 10px;
