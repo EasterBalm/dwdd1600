@@ -55,10 +55,10 @@ header p {
         color: white;
         background-image: linear-gradient(to bottom, #8C501B, #653a19);
     }
-
-
  } /*end of the media  query*/
-    /*BIG screens*/
+   
+ 
+ /*BIG screens*/
     @media only screen and (min-width:801px) {
 
 
@@ -93,34 +93,6 @@ header p {
 
 }/*end of the media  query*/
 
-nav {
-    border-top: solid 1px #E0E6E6;
-    
-}
-nav ul {
-    margin: 0;
-    padding: 0 2vw;
-    list-style-type: none;
-    display: flex;
-}
-nav a {
-    display: block;
-    padding: 1.2rem 1rem .3rem 1rem;
-    font-size: 1rem;
-    text-decoration: none;
-    color: #8C501B;
-    font-weight: 600;
-    text-transform: uppercase;
-    text-align: center;
-    border-bottom: solid 2px #fff;
-}
-
-nav .active a {
-    border-bottom: solid 2px #8b5022;
-}
-nav a:hover {
-    color: #000;
-}
 
 
 /* BIG screens */
@@ -199,5 +171,6 @@ footer a {
 
 header, nav, main, footer {
     max-width: 64rem;
+    margin: 0 auto;
     -ms-text-combine-horizontal: 0 auto;
 }
